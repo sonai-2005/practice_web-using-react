@@ -1,0 +1,234 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+#image {
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    margin: 1vh;
+    mix-blend-mode: multiply;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+
+
+.navBar-details {
+    color: black !important;
+    transition: color 0.3s ease, border 0.3s ease;
+
+}
+
+.navBar-details:hover {
+
+    border: 1px solid rgba(82, 76, 76, 0.5) !important;
+    color: blue !important;
+}
+
+.footer {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    top: 90%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.blent {
+    mix-blend-mode: multiply;
+}
+
+.download-down {
+    margin: 2vh;
+    min-width: 13vh !important;
+    width: 20vh !important;
+    min-height: 15vh !important;
+    height: 20vh !important;
+    mix-blend-mode: multiply;
+
+
+}
+
+.beer-have:hover {
+    background-color: rgb(143, 216, 143) !important;
+}
+
+.beer-have:active {
+    background-color: green !important;
+}
+
+
+.carousel-container {
+    height: 50vh;
+    /* Half of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centers the carousel vertically */
+}
+
+.carousel {
+    width: 100%;
+    /* Adjust width as needed */
+    max-width: 800px;
+    height: 80%;
+    margin: 2vh;
+    padding: 3vh;
+}
+
+.carousel-inner {
+    height: 100%;
+    border-radius: 2vh;
+}
+
+.carousel-item img {
+    max-width: 600px;
+    max-height: 1000px;
+
+    object-fit: cover;
+    /* Ensures the image fits well */
+}
+
+.is-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.is-pro i {
+    font-size: 3rem !important;
+}
+
+.log-in {
+    display: flex !important;
+    flex-direction: column !important;
+    max-height: 60vh;
+    max-width: 800px;
+    background-color: rgb(222, 239, 185);
+    border-radius: 2vh;
+    padding: 4vh;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1vh 0.3vh rgba(0, 0, 0, 0.6);
+    background: rgba(182, 203, 128, 0.773);
+}
+
+#inputmail {
+    border-radius: 5vh;
+    background: rgba(255, 255, 255, 0.5);
+    max-width: 500px;
+}
+
+#inputPassword {
+    border-radius: 5vh;
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5vh;
+    max-width: 500px;
+}
+
+.log-in-container {
+    width: 100%;
+    background: url("/images/loginpage.jpg"), rgba(255, 255, 255, 0) !important;
+    background-size: contain !important;
+    height: 80vh;
+    background-blend-mode: overlay;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-img-frnd {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap:2vh;
+    height: 100%;
+    width: 100%;
+}
+
+.frnd-img {
+    height: 50% !important;
+    background:rgba(255, 255, 255, 0.1) !important;
+    border-radius: 2vh;
+}
+
+.frnd-img img {
+    height: 40vh;
+
+    max-width: 600px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 6vh;
+    
+}
+.first-text{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+    
+}
+.instagram-page{
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr;
+    gap:1vh;
+    height: 10vh;
+    
+}
+.instagram-page div{
+    background-color: red;
+    border-radius: 2vh;
+    text-align: center;
+    
+}
+#githubimg{
+    align-items: center;
+    
+    margin: 2vh;
+    border-radius: 4vh;
+    width: 80%;
+    height: 80%;
+}
+.github-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.github-data{
+    font-weight: 900;
+    height: 10vh;
+    width: 20vh;
+}
+.batman{
+    margin: 2vh;
+    height: 20%;
+    width: 20% !important;
+    border-radius: 50%;
+    
+}
+.for-center{
+    display:flex !important;
+    justify-content: center !important;
+    background:rgba(255, 255, 255, 0.1) !important;
+    
+}
