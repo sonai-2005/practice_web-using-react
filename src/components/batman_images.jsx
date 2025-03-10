@@ -9,7 +9,7 @@ export default function BatmanI(props) {
   <div className="card-body text-center">
     <h5 className="card-title">{props.title}</h5>
     <p className="card-text">{props.desc}</p>
-    <a href="" download="ultraBatman.jpg" className="btn btn-primary">download</a>
+    <a href={props.Image} download="ultraBatman.jpg" className="btn btn-primary">download</a>
   </div>
 </div>
 
