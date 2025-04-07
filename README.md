@@ -4,6 +4,7 @@
 -----
 ## ✨ Features
 - download the images through url
+- integrate a github api call that fetch the profile picture and the followers count
 ## 🛠️ Tech Stack 
 - pure react js and bootstrap
 ```bash
